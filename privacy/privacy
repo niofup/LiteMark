@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LiteMark Privacy Policy · 隐私政策</title>
+    <meta
+      name="description"
+      content="LiteMark privacy policy — local Markdown editor by Edward CCAO. LiteMark 隐私政策：本地 Markdown 编辑器，发布者 Edward CCAO。"
+    />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f7f6f3;
+        --ink: #1c2430;
+        --soft: #5c6675;
+        --accent: #1a3d2e;
+        --line: #e2e0da;
+        --card: #fffefb;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #12161a;
+          --ink: #e8eaed;
+          --soft: #a0a8b4;
+          --accent: #8fbf9f;
+          --line: #2a3038;
+          --card: #181c22;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family:
+          "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+        line-height: 1.65;
+        background: var(--bg);
+        color: var(--ink);
+      }
+      main {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 2.5rem 1.25rem 4rem;
+      }
+      h1 {
+        font-size: 1.75rem;
+        font-weight: 650;
+        letter-spacing: -0.02em;
+        margin: 0 0 0.35rem;
+        color: var(--accent);
+      }
+      .meta {
+        color: var(--soft);
+        font-size: 0.95rem;
+        margin-bottom: 1.75rem;
+      }
+      .meta p {
+        margin: 0.2rem 0;
+      }
+      nav.toc {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 0.85rem 1rem 0.85rem 1.15rem;
+        margin-bottom: 2rem;
+        font-size: 0.92rem;
+      }
+      nav.toc strong {
+        display: block;
+        margin-bottom: 0.35rem;
+      }
+      nav.toc a {
+        color: var(--accent);
+      }
+      nav.toc ol {
+        margin: 0.25rem 0 0.75rem;
+        padding-left: 1.2rem;
+      }
+      nav.toc li {
+        margin: 0.15rem 0;
+      }
+      section {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 1.15rem 1.25rem 1.25rem;
+        margin-bottom: 1rem;
+      }
+      h2 {
+        font-size: 1.15rem;
+        margin: 0 0 0.65rem;
+        color: var(--accent);
+      }
+      h2 .en {
+        display: block;
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: var(--soft);
+        letter-spacing: 0.02em;
+      }
+      p,
+      li {
+        margin: 0.45rem 0;
+      }
+      ul {
+        padding-left: 1.25rem;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.92rem;
+        margin: 0.75rem 0;
+      }
+      th,
+      td {
+        border: 1px solid var(--line);
+        padding: 0.45rem 0.55rem;
+        text-align: left;
+        vertical-align: top;
+      }
+      th {
+        background: color-mix(in srgb, var(--accent) 8%, transparent);
+        font-weight: 600;
+      }
+      a {
+        color: var(--accent);
+      }
+      .note {
+        border-left: 3px solid var(--accent);
+        padding: 0.5rem 0.75rem;
+        margin: 0.75rem 0;
+        background: color-mix(in srgb, var(--accent) 6%, transparent);
+        font-size: 0.95rem;
+      }
+      .placeholder {
+        background: color-mix(in srgb, #c47b2b 18%, transparent);
+        padding: 0 0.25em;
+        border-radius: 3px;
+      }
+      footer {
+        margin-top: 1.5rem;
+        color: var(--soft);
+        font-size: 0.85rem;
+      }
+      hr.lang {
+        border: 0;
+        border-top: 1px dashed var(--line);
+        margin: 2.5rem 0 1.5rem;
+      }
+      h1.en-title {
+        color: var(--ink);
+        font-size: 1.35rem;
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>LiteMark 隐私政策</h1>
+      <p class="meta">
+        <strong>发布者：</strong> Edward CCAO<br />
+        <strong>产品：</strong> LiteMark（本地 Markdown 编辑器）<br />
+        <strong>最近更新：</strong> 2026-09-14
+      </p>
+
+      <nav class="toc" aria-label="目录">
+        <strong>目录 / Contents</strong>
+        <ol>
+          <li><a href="#summary">概要</a></li>
+          <li><a href="#who">我们是谁</a></li>
+          <li><a href="#collect">我们收集什么</a></li>
+          <li><a href="#local">仅存在设备上的数据</a></li>
+          <li><a href="#network">网络行为</a></li>
+          <li><a href="#store">Microsoft Store 与购买</a></li>
+          <li><a href="#children">儿童隐私</a></li>
+          <li><a href="#choices">你的选择</a></li>
+          <li><a href="#changes">政策变更</a></li>
+          <li><a href="#contact">联系方式</a></li>
+          <li><a href="#scope">适用范围</a></li>
+        </ol>
+        <strong>English</strong>
+        <ol>
+          <li><a href="#en-summary">Summary</a></li>
+          <li><a href="#en-who">Who we are</a></li>
+          <li><a href="#en-collect">What we collect</a></li>
+          <li><a href="#en-local">Data on your device</a></li>
+          <li><a href="#en-network">Network activity</a></li>
+          <li><a href="#en-store">Microsoft Store</a></li>
+          <li><a href="#en-children">Children</a></li>
+          <li><a href="#en-choices">Your choices</a></li>
+          <li><a href="#en-changes">Changes</a></li>
+          <li><a href="#en-contact">Contact</a></li>
+          <li><a href="#en-scope">Scope</a></li>
+        </ol>
+      </nav>
+
+      <section id="summary">
+        <h2>1. 概要</h2>
+        <p>
+          LiteMark 是一款<strong>本地 Markdown 编辑器</strong
+          >。我们<strong>不</strong>为你的文档提供云端同步服务。文档由你通过系统对话框在本机打开与保存。我们<strong>不出售</strong>个人数据。
+        </p>
+      </section>
+
+      <section id="who">
+        <h2>2. 我们是谁</h2>
+        <ul>
+          <li><strong>发布者 / 责任主体：</strong> Edward CCAO</li>
+          <li>
+            <strong>产品：</strong> LiteMark（桌面应用，经 Microsoft Store
+            分发）
+          </li>
+        </ul>
+      </section>
+
+      <section id="collect">
+        <h2>3. 我们收集什么</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>类别</th>
+              <th>是否收集</th>
+              <th>说明</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>账号 / 注册</td>
+              <td><strong>否</strong></td>
+              <td>应用内无注册、不收集邮箱</td>
+            </tr>
+            <tr>
+              <td>文档正文</td>
+              <td><strong>我们不收集</strong></td>
+              <td>
+                仅读写<strong>你</strong>打开或保存的本地文件，正文不上传至发布者
+              </td>
+            </tr>
+            <tr>
+              <td>分析 / 崩溃遥测</td>
+              <td><strong>否</strong></td>
+              <td>无分析 SDK、无崩溃上报服务</td>
+            </tr>
+            <tr>
+              <td>广告标识</td>
+              <td><strong>否</strong></td>
+              <td>应用内无广告</td>
+            </tr>
+            <tr>
+              <td>支付数据</td>
+              <td><strong>（发布者）否</strong></td>
+              <td>
+                买断与试用由
+                <strong>Microsoft Store</strong>
+                处理；账单与支付信息归微软。参见
+                <a
+                  href="https://privacy.microsoft.com/zh-cn/"
+                  rel="noopener noreferrer"
+                  >Microsoft 隐私声明</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>发送给我们的设备标识</td>
+              <td><strong>否</strong></td>
+              <td>不运营会接收硬件 ID 的账号或许可服务器</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="local">
+        <h2>4. 仅存在你设备上的数据</h2>
+        <p>LiteMark 可能<strong>仅在本地</strong>保存：</p>
+        <ul>
+          <li>
+            <strong>界面偏好</strong
+            >（主题、侧栏、字体、编辑器模式等），存放于应用本地设置。
+          </li>
+          <li>
+            <strong>应用数据目录</strong>（标识
+            <code>com.litemark.editor</code>；Windows 上通常为
+            <code>%APPDATA%\com.litemark.editor\</code>），可能包含：
+            <ul>
+              <li><strong>历史 / 自动快照</strong>（便于恢复此前版本）；</li>
+              <li>仅存本机的诊断日志（若有）。</li>
+            </ul>
+          </li>
+          <li><strong>最近打开的文件路径</strong>，仅用于本地「最近」列表。</li>
+        </ul>
+        <p>
+          可通过删除上述目录或卸载应用清除（卸载后应用数据可能仍残留，可手动删除）。
+        </p>
+      </section>
+
+      <section id="network">
+        <h2>5. 网络行为</h2>
+        <p>编辑功能以离线为主。仍可能发生的有限联网包括：</p>
+        <ol>
+          <li>
+            <strong>你文档中引用的内容</strong>：若 Markdown 含
+            <code>http(s)</code> 图片地址，内置 WebView
+            可能向第三方服务器请求这些资源；对方可能看到你的 IP
+            与常规请求信息。应用不代理、不记录这些请求。出于安全考虑，<strong>不支持</strong>内网
+            / localhost 等私网图片地址。
+          </li>
+          <li>
+            <strong>Microsoft Store / 系统组件</strong>：安装、更新、许可及
+            WebView2 运行时更新由 Windows / Microsoft Store 处理。
+          </li>
+          <li><strong>打开外部链接</strong>：由系统浏览器与目标网站处理。</li>
+        </ol>
+      </section>
+
+      <section id="store">
+        <h2>6. Microsoft Store 与购买</h2>
+        <ul>
+          <li>
+            分发、付款、退款与试用资格由 <strong>Microsoft Store</strong> 提供。
+          </li>
+          <li>
+            微软可能依据
+            <a
+              href="https://privacy.microsoft.com/zh-cn/"
+              rel="noopener noreferrer"
+              >Microsoft 隐私声明</a
+            >
+            处理 Store 账号与购买相关个人数据。
+          </li>
+          <li>Store 购买的支付卡信息不会由微软提供给发布者。</li>
+        </ul>
+      </section>
+
+      <section id="children">
+        <h2>7. 儿童隐私</h2>
+        <p>
+          LiteMark 面向通用生产力场景，<strong>不面向 13 周岁以下</strong
+          >（或你所在地区法定最低年龄）儿童。我们不会故意收集儿童个人信息。
+        </p>
+      </section>
+
+      <section id="choices">
+        <h2>8. 你的选择</h2>
+        <ul>
+          <li>
+            不希望产生本地读取或第三方图片请求时，请不要打开相应文档或外链图片。
+          </li>
+          <li>卸载应用可停止使用；删除应用数据目录可清除本地快照与设置。</li>
+          <li>购买与退款请通过 Microsoft Store 与微软支持渠道处理。</li>
+        </ul>
+      </section>
+
+      <section id="changes">
+        <h2>9. 政策变更</h2>
+        <p>
+          功能变化时我们可能更新本政策，并修改文首「最近更新」日期。如有重大变更，将在
+          Store 更新上线前或同步在此说明。
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>10. 联系方式</h2>
+        <p>有关 LiteMark 的隐私问题：</p>
+        <ul>
+          <li><strong>发布者：</strong> Edward CCAO</li>
+          <li>
+            <strong>联系邮箱：</strong>
+            <span class="placeholder">edwardqccao@outlook.com</span>
+          </li>
+        </ul>
+        <div class="note"></div>
+      </section>
+
+      <section id="scope">
+        <h2>11. 适用范围</h2>
+        <p>
+          本政策适用于由 Edward CCAO 以 <strong>LiteMark</strong> 名义分发的
+          <strong>LiteMark</strong> 桌面应用，包括 Store 构建版本。
+        </p>
+      </section>
+
+      <hr class="lang" />
+
+      <h1 class="en-title">LiteMark Privacy Policy</h1>
+      <p class="meta">
+        <strong>Publisher:</strong> Edward CCAO<br />
+        <strong>Product:</strong> LiteMark (local Markdown editor)<br />
+        <strong>Last updated:</strong> 2026-09-14
+      </p>
+
+      <section id="en-summary">
+        <h2>
+          1. Summary
+          <span class="en">概要</span>
+        </h2>
+        <p>
+          LiteMark is a <strong>local Markdown editor</strong>. We do
+          <strong>not</strong> operate a cloud service for your documents. Your
+          notes are opened and saved on your device through the system file
+          picker. We do <strong>not</strong> sell personal data.
+        </p>
+      </section>
+
+      <section id="en-who">
+        <h2>
+          2. Who we are
+          <span class="en">我们是谁</span>
+        </h2>
+        <ul>
+          <li><strong>Controller / Publisher:</strong> Edward CCAO</li>
+          <li>
+            <strong>Product:</strong> LiteMark (desktop application, distributed
+            via Microsoft Store)
+          </li>
+        </ul>
+      </section>
+
+      <section id="en-collect">
+        <h2>
+          3. What we collect
+          <span class="en">我们收集什么</span>
+        </h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Collected?</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Account / registration</td>
+              <td><strong>No</strong></td>
+              <td>No sign-up; no email collection in-app</td>
+            </tr>
+            <tr>
+              <td>Document content</td>
+              <td><strong>Not by us</strong></td>
+              <td>
+                LiteMark only reads/writes files <strong>you</strong> open or
+                save. Content is not uploaded to the publisher.
+              </td>
+            </tr>
+            <tr>
+              <td>Analytics / crash telemetry</td>
+              <td><strong>No</strong></td>
+              <td>No analytics SDK, no crash reporting service</td>
+            </tr>
+            <tr>
+              <td>Advertising identifiers</td>
+              <td><strong>No</strong></td>
+              <td>No ads in the app</td>
+            </tr>
+            <tr>
+              <td>Payment data</td>
+              <td><strong>No (publisher)</strong></td>
+              <td>
+                Purchase and trial are processed by
+                <strong>Microsoft Store</strong>. Billing data goes to
+                Microsoft, not to us. See
+                <a
+                  href="https://privacy.microsoft.com/"
+                  rel="noopener noreferrer"
+                  >Microsoft privacy statements</a
+                >.
+              </td>
+            </tr>
+            <tr>
+              <td>Device IDs sent to us</td>
+              <td><strong>No</strong></td>
+              <td>
+                No account or license server operated by the publisher receives
+                hardware IDs
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="en-local">
+        <h2>
+          4. Data stored on your device
+          <span class="en">仅存在设备上的数据</span>
+        </h2>
+        <p>LiteMark may store the following <strong>locally only</strong>:</p>
+        <ul>
+          <li>
+            <strong>UI preferences</strong> (theme, sidebar, fonts, editor mode,
+            etc.) in local application storage.
+          </li>
+          <li>
+            <strong>Application data folder</strong> for app identity
+            <code>com.litemark.editor</code> (on Windows, typically
+            <code>%APPDATA%\com.litemark.editor\</code>), including:
+            <ul>
+              <li>
+                <strong>History / auto-snapshots</strong> of documents you edit
+              </li>
+              <li>on-device diagnostic logs (if any)</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Recently opened file paths</strong> for a local recent list
+            only.
+          </li>
+        </ul>
+        <p>
+          Clear snapshots and settings by deleting that folder or uninstalling
+          the app (Windows may leave app-data leftovers; delete the folder
+          manually if needed).
+        </p>
+      </section>
+
+      <section id="en-network">
+        <h2>
+          5. Network activity
+          <span class="en">网络行为</span>
+        </h2>
+        <p>Editing works offline. Limited network use can still occur:</p>
+        <ol>
+          <li>
+            <strong>Content you reference:</strong> If a document contains
+            <code>http(s)</code> image URLs, the embedded web view may request
+            those URLs. Third-party servers may see your IP address. LiteMark
+            does not proxy or log those requests. Private-network image URLs
+            (LAN/localhost) are intentionally not supported.
+          </li>
+          <li>
+            <strong>Microsoft Store / OS components:</strong> Install, update,
+            licensing, and WebView2 runtime updates are handled by Windows /
+            Microsoft Store.
+          </li>
+          <li>
+            <strong>External links:</strong> Handled by your browser and the
+            destination site.
+          </li>
+        </ol>
+      </section>
+
+      <section id="en-store">
+        <h2>
+          6. Microsoft Store and purchases
+          <span class="en">Microsoft Store 与购买</span>
+        </h2>
+        <ul>
+          <li>
+            Distribution, payment, refund, and trial entitlement are provided by
+            <strong>Microsoft Store</strong>.
+          </li>
+          <li>
+            Microsoft may process personal data for Store accounts and purchases
+            under
+            <a href="https://privacy.microsoft.com/" rel="noopener noreferrer"
+              >Microsoft Privacy Statement</a
+            >.
+          </li>
+          <li>
+            The publisher does not receive your payment card details from
+            Microsoft for Store purchases.
+          </li>
+        </ul>
+      </section>
+
+      <section id="en-children">
+        <h2>
+          7. Children’s privacy
+          <span class="en">儿童隐私</span>
+        </h2>
+        <p>
+          LiteMark is a general-purpose productivity tool and is
+          <strong>not directed at children under 13</strong> (or the minimum age
+          in your region). We do not knowingly collect personal information from
+          children.
+        </p>
+      </section>
+
+      <section id="en-choices">
+        <h2>
+          8. Your choices
+          <span class="en">你的选择</span>
+        </h2>
+        <ul>
+          <li>
+            Avoid opening documents or remote images if you do not want related
+            local or third-party access.
+          </li>
+          <li>
+            Uninstall to stop all use; delete the app-data folder to remove
+            local snapshots/settings.
+          </li>
+          <li>Use Microsoft Store support for purchase and refund issues.</li>
+        </ul>
+      </section>
+
+      <section id="en-changes">
+        <h2>
+          9. Changes to this policy
+          <span class="en">政策变更</span>
+        </h2>
+        <p>
+          We may update this policy when features change. The “Last updated”
+          date will change. Material changes will be reflected here before or
+          when a Store update ships.
+        </p>
+      </section>
+
+      <section id="en-contact">
+        <h2>
+          10. Contact
+          <span class="en">联系方式</span>
+        </h2>
+        <ul>
+          <li><strong>Publisher:</strong> Edward CCAO</li>
+          <li>
+            <strong>Contact email:</strong>
+            <span class="placeholder">edwardqccao@outlook.com</span>
+          </li>
+        </ul>
+        <div class="note"></div>
+      </section>
+
+      <section id="en-scope">
+        <h2>
+          11. Scope
+          <span class="en">适用范围</span>
+        </h2>
+        <p>
+          This policy applies to the <strong>LiteMark</strong> desktop
+          application distributed as <strong>LiteMark</strong> by Edward CCAO,
+          including Store builds.
+        </p>
+      </section>
+
+      <footer>
+        © 2026 Edward CCAO · LiteMark · This page is static HTML (no trackers).
+      </footer>
+    </main>
+  </body>
+</html>
